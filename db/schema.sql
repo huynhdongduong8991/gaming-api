@@ -1,0 +1,8 @@
+CREATE DATABASE gaming_db;
+
+USE gaming_db;
+
+CREATE TABLE games (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(255) NOT NULL
+);
